@@ -1,0 +1,8 @@
+2026-05-02T07:34:29+02:00 | Incoming tx: b1d97549ed4b49ba31b2947c0bb04fc1554d27aac752bb42dad82cae6bdeef69
+2026-05-02T07:34:29+02:00 | Incoming tx: 106bc618f6ffbdd22afea663b3e710e9aa7316d155aa4b2b9f52dcf169c68942
+2026-05-02T07:34:29+02:00 | Incoming tx: 1bff7da965fbce061408f549a00d9eeeb4162a3666e76a06bfdc6a259fd4587b
+2026-05-02T07:34:29+02:00 | Incoming tx: 364e206c07b6c90145a96d70c7f8b92a89ff9aa272933aea8de4486db95e13aa
+{"txid":"b1d97549ed4b49ba31b2947c0bb04fc1554d27aac752bb42dad82cae6bdeef69","type":"INCOMING","next":"bc1qghcesaw3j6s6ankfw00r55dpn76gghzexer3yj","amount":0.00044317,"cluster":["bc1qghcesaw3j6s6ankfw00r55dpn76gghzexer3yj"],"change":"bc1q9nh4revv6yqhj2gc5usncrpsfnh7ypwr9h0sp2","tag":"UNKNOWN"}
+{"txid":"106bc618f6ffbdd22afea663b3e710e9aa7316d155aa4b2b9f52dcf169c68942","type":"INCOMING","next":"bc1q6x0nq4560p4zpqazgjwhs2v6ku3hzyvhmuf529","amount":0.34173561,"cluster":["bc1qrxrvtn5cz9smrwj57sg2f4x6p6uq3jrlky8pgt"],"change":"3MrnaZB4g6nB7QcHUtC5C243vm8wqTSKGc","tag":"UNKNOWN"}
+{"txid":"1bff7da965fbce061408f549a00d9eeeb4162a3666e76a06bfdc6a259fd4587b","type":"INCOMING","next":"bc1q9ggqh2z4k8lpk0lkzglh6wjgu9ks0vvu5wdsj4","amount":3.162e-5,"cluster":["bc1q9ggqh2z4k8lpk0lkzglh6wjgu9ks0vvu5wdsj4"],"change":"bc1q9nh4revv6yqhj2gc5usncrpsfnh7ypwr9h0sp2","tag":"UNKNOWN"}
+{"txid":"364e206c07b6c90145a96d70c7f8b92a89ff9aa272933aea8de4486db95e13aa","type":"INCOMING","next":"bc1qm34lsc65zpw79lxes69zkqmk6ee3ewf0j77s3h","amount":0.1764259,"cluster":["bc1qm34lsc65zpw79lxes69zkqmk6ee3ewf0j77s3h"],"change":"bc1qcv3fmme7quvfaf79552la8d0j098pngzpawsk0","tag":"UNKNOWN"}
