@@ -27,3 +27,4 @@ jobs:
         env:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          TO_Email:   ${{ secrets.TO_Email }}
