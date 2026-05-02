@@ -1,12 +1,10 @@
-<?php
-
 return [
     'address' => 'bc1q9nh4revv6yqhj2gc5usncrpsfnh7ypwr9h0sp2',
 
     'email' => [
-        'user' => 'singaporeserver5632s@gmail.com',
-        'pass' => 'ohqfdcvdxltqithd',
-        'to'   => 'brijeshverma7814@gmail.com',
+        'user' => getenv('EMAIL_USER'),
+        'pass' => getenv('EMAIL_PASS'),
+        'to'   => getenv('TO_Email'),
     ],
 
     'api' => [
