@@ -3,24 +3,23 @@ name: BTC Monitor
 on:
   schedule:
     - cron: "*/10 * * * *"
+    - cron: "5-59/10 * * * *"   # 🔥 extra trigger (important)
   workflow_dispatch:
 
 jobs:
   run-monitor:
     runs-on: ubuntu-latest
-    environment: btc-tracker   # 👈 IMPORTANT (same name as your env)
+    environment: btc-tracker
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Setup PHP
-        uses: shivammathur/setup-php@v2
+      - uses: shivammathur/setup-php@v2
         with:
           php-version: 8.2
+          tools: composer
 
-      - name: Install dependencies
-        run: composer install
+      - run: composer install --no-interaction --prefer-dist --no-progress
 
       - name: Run monitor
         run: php monitor.php
